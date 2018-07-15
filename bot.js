@@ -878,7 +878,7 @@ client.on('message', msg => { // Leaked by [ @! Abdulrhman#1001, @! KiNg66S.❤#
     msg.delete().then
     msg.delete().then
     msg.channel.bulkDelete(textxt);
-        msg.channel.send("```php\nعدد الرسائل التي تم مسحها: " + textxt + "\n```").then(m => m.delete(3000));
+
         }
     }
 }
