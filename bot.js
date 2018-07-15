@@ -107,7 +107,7 @@ client.on('message', message => { // Leaked by [ @! Abdulrhman#1001, @! KiNg66S.
                 timestamp: new Date(),
                 footer: {
                   icon_url: client.user.avatarURL,
-                  text: "tp BOt
+                  text: "EP bot"
                 }
               }
             });
