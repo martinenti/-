@@ -873,7 +873,7 @@ client.on('message', msg => { // Leaked by [ @! Abdulrhman#1001, @! KiNg66S.❤#
     if(msg.member.hasPermission("MANAGE_MESSAGES")) {
     if (textxt == "") {
         msg.delete().then
-    msg.channel.send("***```ضع عدد الرسائل التي تريد مسحه```***").then(m => m.delete(3000));
+    msg.channel.send("***````***").then(m => m.delete(3000));
 } else {
     msg.delete().then
     msg.delete().then
