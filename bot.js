@@ -21,7 +21,7 @@ var fs = require('fs');
 
 client.on('ready', function(){ // Leaked by [ @! Abdulrhman#1001, @! KiNg66S.❤#8047 ]
     var ms = 30000 ;
-    var setGame = [`*help | *inv `,` to get bot call me ╲ ⎠⧹ℳάℛťîɳ⧸⎠ ╲✨#6181 !`];
+    var setGame = [`*help | *inv `,` Welcome to Ep Comunite !`];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -834,7 +834,7 @@ vv.on("collect", r => {
  .setTitle(`Welcome To ${msg.guild.name}`)
            .setFooter(`- Requested By: ${msg.author.tag}`,msg.author.avatarURL)
   .setURL('https://discordapp.com/api/oauth2/authorize?client_id=468062572458016788&permissions=8&scope=bot')
-.setDescription(`**' S Bot Discord.\n$help - لرؤية الأوامر  **`)
+.setDescription(`**' EP Bot Discord.\n*help - لرؤية الأوامر  **`)
 
 
  .setTimestamp()
